@@ -11,5 +11,5 @@ There are 3 classification methods used inside:\
   2)A Multinomial Naive Bayes approach to classify a random* country of the world based on the word being used\
   3)A Complement Naive Bayes approach to classify a random* country of the world based on the word being used\
   
-  *The country selected, was randomly selected between the countries that presented the higher mode*\
+  */*The country selected, was randomly selected between the countries that presented the higher mode*\
 The models displayed 96%,99% and 99% accuracy when compared to our test set
