@@ -6,10 +6,11 @@ There is also https://worldhappiness.report/ed/2021/ the happiness report which 
 
 The GDC Data has been tokenized and has had stopwords removed
 
-There are 3 classification methods used inside:\
-  1)A Multinomial Naive Bayes approach to classify each region of the world based on the words used on their speech\
-  2)A Multinomial Naive Bayes approach to classify a random* country of the world based on the word being used\
-  3)A Complement Naive Bayes approach to classify a random* country of the world based on the word being used\
+There are 4 classification methods used inside:\
+  1)A Multinomial Naive Bayes approach to classify a region of the world based on the words used on their speech\
+  2)A Multinomial Naive Bayes approach to classify country of the world based on the words being used\
+  3)A Complement Naive Bayes approach to classify a country of the world based on the words being used\
+  4)A Complement Naive Bayes approach to classify a region of the world based on the words being used\
   
-  *\*The country selected, was randomly selected between the countries that presented the higher mode*\
-The models displayed 96%,99% and 99% accuracy when compared to our test set
+
+The models displayed 94%,96% 94%, 96% accuracy when compared to our test set using the k-fold validation method through Grid Search algorithm.
